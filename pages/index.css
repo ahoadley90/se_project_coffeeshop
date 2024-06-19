@@ -122,7 +122,7 @@
   line-height: 52px;
 }
 
-.recipe__subtitle {
+.recipes__subtitle {
   display: flex;
   left: 80px;
   max-width: 438px;
