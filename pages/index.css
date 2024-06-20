@@ -134,6 +134,12 @@
   font-family: "Noto-serif";
 }
 
+.recipes__iframe {
+  max-width: 480px;
+  max-height: 273px;
+  gap: 24px;
+}
+
 .recipes__videos {
   display: flex;
   gap: 100px;
