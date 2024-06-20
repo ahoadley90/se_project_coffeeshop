@@ -31,6 +31,7 @@
 
 .header__span-accent {
   color: #2f80ed;
+  font-family: "Noto-serif";
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -83,6 +84,7 @@
   margin: 28px 0 0;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Noto-serif";
 }
 
 .header__span-accent {
@@ -129,6 +131,7 @@
   gap: 24px;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Noto-serif";
 }
 
 .recipes__videos {
