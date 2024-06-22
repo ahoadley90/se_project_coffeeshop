@@ -62,23 +62,23 @@
     </section>
     <section id="book-a-table" class="reservation">
       <h2 class="reservation__title">Book a table</h2>
-      <form action="" class="reservation__form form">
+      <form action="submit-reservation" class="reservation__form form">
       <fieldset class="form__fieldset">
         <label for="name" class="form__label">
-          Name*<input placeholder="Name Surname" type="text" class="form__input">
+          Name*<input placeholder="Name Surname" type="text" id="name" name="name" class="form__input" required>
         </label>
         <label for="number-of-guests" class="form__label">
           Number of guests*
-          <input placeholder="1-8" type="number" class="form__input">
+          <input id="guests" name="guests" placeholder="1-8" type="number" class="form__input" required>
         </label>
         <label for="date&time" class="form__label">
           Date & time*
-          <input type="datetime-local" class="form__input">
+          <input id="date-and-time" name="date-and-time" type="datetime-local" class="form__input" required>
 
         </label>
         <label for="email" class="form__label">
           Your email*
-          <input placeholder="email@email.com" type="email" class="form__input">
+          <input id="email" name="email" placeholder="email@email.com" type="email" class="form__input" required>
         </label>
       </fieldset>
       <button class="form__button">Book a table</button>
