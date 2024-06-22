@@ -222,7 +222,7 @@
 }
 
 .input[type="checkbox"]:checked {
-  background-image: url("check.svg");
+  background-image: url(/images/check.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 16px;
