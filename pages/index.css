@@ -17,17 +17,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-height: 780px;
 }
 
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
+  margin: 0 auto 24px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  max-height: 780px;
+  max-width: 780px;
 }
 
 .menu__subtitle {
@@ -256,6 +255,5 @@
   justify-content: flex-start;
   margin-top: 108px;
   margin-bottom: 60px;
-  width: 100%;
   margin-left: 80px;
 }
