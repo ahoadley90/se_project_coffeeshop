@@ -1,7 +1,7 @@
 .reservation {
   padding: 100px 0 120px;
   background-color: #d9e7ff;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -38,7 +38,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -98,7 +98,7 @@
   height: 60px;
   border-radius: 4px;
   transition: opacity 0.3s ease;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
