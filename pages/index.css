@@ -9,3 +9,240 @@
 @import url(../blocks/recipes.css);
 
 @import url(../blocks/reservation.css);
+
+.menu {
+  padding: 100px 0 100px;
+  background-color: #fff;
+  background-image: url(/images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 780px;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-height: 780px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  width: 540px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card:last-child {
+  margin-bottom: 100px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__list-item {
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 0;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+  margin: 0 8px;
+}
+
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  padding: 80px 20px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-bottom: 20px;
+  max-width: 251px;
+  z-index: 1;
+  position: relative;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+}
+
+.about__circle {
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -150px;
+  left: 80px;
+  transform: translate(-50%);
+  z-index: 0;
+}
+
+.about__circle.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer__content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-item: center;
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  max-width: 105px;
+  margin-bottom: 20px;
+  height: 39px;
+}
+
+.footer__social-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__social-link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 108px;
+  width: 100%;
+}
