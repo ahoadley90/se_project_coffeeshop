@@ -47,6 +47,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  z-index: 1;
 }
 
 .card {
@@ -91,7 +92,7 @@
 }
 
 .card__list-item:last-child {
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 
 .card__list-divider {
@@ -132,6 +133,8 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
+  margin-right: 80px;
+  margin-bottom: 172px;
 }
 
 .about__paragraph {
