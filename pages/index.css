@@ -152,6 +152,9 @@
 
 .about__circle.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
+  z-index: 1;
+  left: -129px;
+  overflow: hidden;
 }
 
 @keyframes pulsate {
