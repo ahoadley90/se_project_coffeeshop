@@ -16,7 +16,7 @@
 .footer__logo {
   display: flex;
   align-items: flex-start;
-  max-width: 105px;
+  width: 105px;
   margin-bottom: 20px;
   height: 39px;
   margin-left: 80px;
@@ -67,6 +67,11 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.footer__column {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__copyright {
