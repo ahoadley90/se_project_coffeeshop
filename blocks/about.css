@@ -5,6 +5,8 @@
   position: relative;
   margin: 0 auto;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -28,14 +30,18 @@
   max-width: 660px;
   z-index: 1;
   position: relative;
-  margin: 119px 80px 173px auto;
+  top-margin: 19px;
 }
 
 .about__paragraph {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
   font-size: 20px;
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", serif;
+}
+
+.about__paragragh:last-child {
+  margin-bottom: 173px;
 }
 
 .about__circle {
